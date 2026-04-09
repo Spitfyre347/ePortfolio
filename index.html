@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mikael Christodoulides — Materials Science Portfolio</title>
+  <meta name="description" content="BSc Graduate & Honours Student in Materials Science. Research portfolio, projects, and CV." />
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;height:100%;">
+      <a href="#hero" style="font-weight:600;color:#fff;font-size:0.95rem;letter-spacing:-0.01em; margin-right: 50px;">Mikael D.T. Christodoulides</a>
+      <ul class="nav-links" style="display:flex;gap:2rem;list-style:none;align-items: center;">
+        <li><a href="#about">About</a></li>
+        <li><a href="#qualifications">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/cv.pdf" target="_blank" class="btn" style="padding:0.4rem 1rem;font-size:0.82rem;">Download CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="container">
+      <div class="hero-flex-wrapper" style="display: flex; align-items: center; justify-content: space-between; gap: 3rem;">
+        
+        <div class="hero-text" style="flex: 1;">
+          <p style="font-family:var(--font-mono);font-size:0.8rem;color:var(--accent);margin-bottom:1rem;">
+            ePortfolio &middot; Materials Science Student  
+          </p>
+          <h1 class="hero-name">Mikael Christodoulides</h1>
+          <p class="hero-desc">
+            BSc graduate and current Honours student at the University of Cape Town, specialising in
+            materials engineering. Passionate about energy materials and the mathematics of crystal structures.
+          </p>
+          
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2rem;">
+            <a href="#projects" class="btn primary">View Projects &rarr;</a>
+            <a href="assets/cv.pdf" target="_blank" class="btn">Download CV</a>
+          </div>
+          
+          <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
+            <span class="tag">&#x25CF; Ongoing: BScHons. Materials Science, UCT</span>
+            <span class="tag">BSc. Mathematics Chemistry Computer Science, UCT</span>
+          </div>
+        </div>
+
+        <div class="hero-image" style="flex: 1; display: flex; justify-content: center;">
+          <img src="assets/img/header.jpg" alt="Mikael Christodoulides" style="width: 100%; max-width: 350px; height: auto; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about" class="section" style="border-top:1px solid var(--border);">
+  <div class="container">
+    <span class="section-label">About Me</span>
+    <h2 class="section-title">Background</h2>
+
+    <div style="display:grid; grid-template-columns: 1fr 2fr; gap: 3rem; align-items: start;">
+
+      <div>
+        <img src="assets/img/profile.jpg" alt="Mikael Christodoulides" style="width:100%; height:auto; object-fit:cover; border-radius:4px;">
+        <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem; line-height:1.4;">
+          UCT Science Graduation 1, Autumn 2026
+        </p>
+      </div>
+
+      <div>
+        <p style="font-size:1rem; color:var(--text); margin-bottom:1rem; line-height:1.7;">
+          I am a Materials Science Honours student at the University of Cape Town, currently completing 
+          my 4th year of study. My current research interests lie in the crystal structures of energy materials
+          and the usage of group theory to model symmetry-breaking phenomena, and the structural damage they represent.
+        </p>
+        
+        <p style="font-size:1rem; color:var(--text); margin-bottom:1rem; line-height:1.7;">
+          My undergraduate degree was in mathematics, chemistry, and computer science. This year, in addition to my current coursework, I'm in
+          the process of completing my honours thesis under the supervision of 
+          <a href="https://ebe.uct.ac.za/department-mechanical-engineering/contacts/thorsten-becker" target="_blank" style="color:var(--accent); text-decoration: none; font-weight: 500;">
+            Professor Thorsten Becker
+          </a>,
+          which focuses on using group theory to analyse and predict damage in energy metals.    
+        </p>
+        
+        <p style="font-size:1rem; color:var(--text); margin-bottom:1.5rem; line-height:1.7;">
+          I speak English natively, and have conversational proficiency in French and Afrikaans. Outside the lab I enjoy playing musical instruments, reading and leatherwork. 
+        </p>
+
+        <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+          <span class="tag">Energy Materials</span>
+          <span class="tag">Metal Crystal Structures</span>
+          <span class="tag">Group Theory</span>
+          <span class="tag">Python</span>
+          <span class="tag">C#</span>
+          <span class="tag">Renewable Energy</span>
+          <span class="tag">Pure Mathematics</span>
+          <span class="tag">Software Development</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- QUALIFICATIONS -->
+  <section id="qualifications" class="section" style="border-top:1px solid var(--border);">
+    <div class="container">
+      <span class="section-label">Education</span>
+      <h2 class="section-title">Qualifications</h2>
+      <p style="color:var(--text-muted);margin-bottom:2rem;">Academic credentials and formal training.</p>
+
+      <div class="qual-list">
+
+        <!-- Honours -->
+        <div class="qual-item">
+          <div style="flex:1;">
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:0.25rem;">
+              <h3 style="font-size:1rem;font-weight:600;">BSc (Honours) Materials Science</h3>
+              <span class="qual-date">2026 &ndash; Present</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.75rem;">
+              University of Cape Town &middot; Centre of Materials Engineering, Faculty of Engineering
+            </p>
+            <p style="font-size:0.88rem;margin-bottom:0.75rem;">
+              One-year coursework and disseration-based honours degree, specialising in material performance, characterisation, and 
+              including courses on polymer science, metallurgy, functional materials, and a thesis focusing on the use of 
+              group theory to model energy materials.
+            </p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">
+              <span class="tag" style="color:var(--accent);border-color:var(--accent);">In Progress</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BSc -->
+        <div class="qual-item">
+          <div style="flex:1;">
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:0.25rem;">
+              <h3 style="font-size:1rem;font-weight:600;">BSc Mathematics, Chemistry, Computer Science</h3>
+              <span class="qual-date">2023 &ndash; 2025</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.75rem;">
+              University of Cape Town &middot; Faculty of Science
+            </p>
+            <p style="font-size:0.88rem;margin-bottom:0.75rem;">
+              Three-year undergraduate degree majoring in Mathematics, Chemistry and Computer Science. 
+              Received scholarships for all 3 years of study, and graduated with distinctions in all three
+              majors, and the degree with distinction, with a final GPA of 87.43%.
+            </p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">
+              <span class="tag">91.06% Overall Mathematics GPA (174 Credits)</span>
+              <span class="tag">86.50% Overall Chemistry GPA (192 Credits)</span>
+              <span class="tag">85.12% Overall CS GPA (198 Credits)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Matric -->
+        <div class="qual-item" style="border-bottom:none;">
+          <div style="flex:1;">
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:0.25rem;">
+              <h3 style="font-size:1rem;font-weight:600;">National Senior Certificate (Matric)</h3>
+              <span class="qual-date">2022</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.75rem;">
+              Westerford High School &middot; Cape Town, South Africa
+            </p>
+            <p style="font-size:0.88rem;margin-bottom:0.75rem;">
+              Received a 93.71% aggregate with distinctions in all 8 subjects: Mathematics, Further Studies Mathematics, 
+              Physical Sciences, Music, English Home Language, Afrikaans First Additional Language, 
+              Information Technology and Life Orientation.
+            </p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">
+              <span class="tag">97% Physical Sciences</span>
+              <span class="tag">96% Mathematics</span>
+              <span class="tag">96% Information Technology</span>
+              <span class="tag">94% Music</span>
+              <span class="tag">94% Further Studies Mathematics</span>
+              <span class="tag">90% English HL</span>
+              <span class="tag">89% Afrikaans FAL</span>
+              <span class="tag">89% Life Orientation</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section" style="border-top:1px solid var(--border);">
+    <div class="container">
+      <span class="section-label">Technical Expertise</span>
+      <h2 class="section-title">Skills &amp; Qualifications</h2>
+      <p style="color:var(--text-muted);margin-bottom:2rem;">Laboratory, computational, and transferable competencies.</p>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;">
+
+        <!-- Characterisation -->
+        <div class="card">
+          <h3 style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:var(--text-muted);margin-bottom:1.25rem;">Laboratory Techniques</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>General Synthesis</span><span style="color:var(--text-muted);">Proficient</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="82" style="width:0%;transition:width 1.1s ease;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Purification Techniques</span><span style="color:var(--text-muted);">Proficient</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="76" style="width:0%;transition:width 1.1s ease;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Composite Manufacturing</span><span style="color:var(--text-muted);">Intermediate</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="55" style="width:0%;transition:width 1.1s ease;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Sample Preparation</span><span style="color:var(--text-muted);">Intermediate</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="55" style="width:0%;transition:width 1.1s ease;"></div></div>
+          </div>
+          <div class="skill-item" style="margin-bottom:0;">
+            <div class="skill-info"><span>Optical Microscopy</span><span style="color:var(--text-muted);">Intermediate</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="50" style="width:0%;transition:width 1.1s ease;"></div></div>
+          </div>
+        </div>
+
+        <!-- Software -->
+        <div class="card">
+          <h3 style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:var(--text-muted);margin-bottom:1.25rem;">Software &amp; Computation</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>LaTex</span><span style="color:var(--text-muted);">Advanced</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="98" style="width:0%;transition:width 1.1s ease;background-color:var(--accent2);"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Python</span><span style="color:var(--text-muted);">Advanced</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="91" style="width:0%;transition:width 1.1s ease;background-color:var(--accent2);"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Java</span><span style="color:var(--text-muted);">Advanced</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="89" style="width:0%;transition:width 1.1s ease;background-color:var(--accent2);"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>C#</span><span style="color:var(--text-muted);">Advanced</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="88" style="width:0%;transition:width 1.1s ease;background-color:var(--accent2);"></div></div>
+          </div>
+          <div class="skill-item" style="margin-bottom:0;">
+            <div class="skill-info"><span>HTML</span><span style="color:var(--text-muted);">Intermediate</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="65" style="width:0%;transition:width 1.1s ease;background-color:var(--accent2);"></div></div>
+          </div>
+        </div>
+
+        <!-- Transferable -->
+        <div class="card">
+          <h3 style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:var(--text-muted);margin-bottom:1.25rem;">Mathematics</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>Abstract Algebra</span><span style="color:var(--text-muted);">Advanced</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="91" style="width:0%;transition:width 1.1s ease;background-color:var(--accent3);"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Combinatorics &amp; Graph Theory</span><span style="color:var(--text-muted);">Advanced</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="88" style="width:0%;transition:width 1.1s ease;background-color:var(--accent3);"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Real Analysis</span><span style="color:var(--text-muted);">Proficient</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="84" style="width:0%;transition:width 1.1s ease;background-color:var(--accent3);"></div></div>
+          </div>
+          <div class="skill-item" style="margin-bottom:0;">
+            <div class="skill-info"><span>Metric Spaces</span><span style="color:var(--text-muted);">Proficient</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="78" style="width:0%;transition:width 1.1s ease;background-color:var(--accent3);"></div></div>
+          </div>
+        </div>
+
+        <!-- Misc. -->
+        <div class="card">
+          <h3 style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:var(--text-muted);margin-bottom:1.25rem;">Miscellaneous Skills</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>Piano Composition &amp; Performance</span><span style="color:var(--text-muted);">Advanced</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="88" style="width:0%;transition:width 1.1s ease;background-color:var(--accent4);"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Scientific Writing</span><span style="color:var(--text-muted);">Proficient</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="82" style="width:0%;transition:width 1.1s ease;background-color:var(--accent4);"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Presentation &amp; Communication</span><span style="color:var(--text-muted);">Proficient</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="76" style="width:0%;transition:width 1.1s ease;background-color:var(--accent4);"></div></div>
+          </div>
+          <div class="skill-item" style="margin-bottom:0;">
+            <div class="skill-info"><span>French Speaking &amp; Writing</span><span style="color:var(--text-muted);">Intermediate</span></div>
+            <div class="skill-track"><div class="skill-progress" data-w="65" style="width:0%;transition:width 1.1s ease;background-color:var(--accent4);"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section" style="border-top:1px solid var(--border);">
+    <div class="container">
+      <span class="section-label">Research &amp; Projects</span>
+      <h2 class="section-title">Completed Research Projects</h2>
+      <p style="color:var(--text-muted);margin-bottom:2rem;">Completed research projects and academic work.</p>
+
+      <div style="display:flex;flex-direction:column;gap:1rem;">
+
+        <!-- Project 1 -->
+        <div class="card" style="display:grid;grid-template-columns:200px 1fr;gap:1.5rem;align-items:start;">
+          <div style="aspect-ratio:4/3;background:var(--bg-elevated);border:1px solid var(--border);border-radius:4px;display:flex;align-items:center;justify-content:center;">
+            <img src="assets/img/graphtheory.png" alt="Project 1" style="width:100%;height:100%;object-fit:cover;border-radius:4px;">
+          </div>
+          <div>
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:0.4rem;flex-wrap:wrap;gap:0.5rem;">
+              <h3 style="font-size:1rem;font-weight:600;">An Analysis of Temporal Digraphs Modeled From Hurricane Paths as Inspiration for Studying the Effect of Edge Weights on a Graph’s Structure (2025)</h3>
+              <span class="tag" style="color:var(--accent);border-color:var(--accent);">Graph Theory</span>
+            </div>
+            <p style="font-size:0.88rem;margin-bottom:1rem;">
+              A research project completed as part of a optional mathematics research course during my undergraduate degree, which focused on modelling the paths of hurricanes as mathematical graphs. Completed in October of 2025 
+              under the supervision of
+              <a href="https://science.uct.ac.za/dmtcs/contacts/david-erwin" target="_blank" style="color:var(--accent); text-decoration: none; font-weight: 500;">
+                Associate Professor David Erwin
+              </a>.
+            </p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:1rem;">
+              <span class="tag">Hurricanes and Weather Phenomena</span>
+              <span class="tag">Applications of Pure Mathematics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="card" style="display:grid;grid-template-columns:200px 1fr;gap:1.5rem;align-items:start;">
+          <div style="aspect-ratio:4/3;background:var(--bg-elevated);border:1px solid var(--border);border-radius:4px;display:flex;align-items:center;justify-content:center;">
+            <img src="assets/img/rngs.png" alt="Project 2" style="width:100%;height:100%;object-fit:cover;border-radius:4px;">
+          </div>
+          <div>
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:0.4rem;flex-wrap:wrap;gap:0.5rem;">
+              <h3 style="font-size:1rem;font-weight:600;">An Analysis of Randomness in Computer Science in the context of a Truly Random Number Generator (2024)</h3>
+              <span class="tag" style="color:var(--accent);border-color:var(--accent);">Random Number Generators</span>
+            </div>
+            <p style="font-size:0.88rem;margin-bottom:1rem;">
+              A research project completed as part of a optional computer science research course, available to high-achieving students, during my undergraduate degree, 
+              which focused on comparing existing random number generators in computer science with a perfect mathematical construction. Completed in October of 2024 under the supervision of
+              <a href="https://sit.uct.ac.za/contacts/patrick-marais" target="_blank" style="color:var(--accent); text-decoration: none; font-weight: 500;">
+                Associate Professor Patrick Marais
+              </a>.
+            </p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:1rem;">
+              <span class="tag">Sets and Mappings</span>
+              <span class="tag">Pseudo-random Number Generators</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="section" style="border-top:1px solid var(--border);">
+    <div class="container">
+      <span class="section-label">Scholarly Output</span>
+      <h2 class="section-title">Publications &amp; Reports</h2>
+      <p style="color:var(--text-muted);margin-bottom:2rem;">Formal academic contributions, ongoing and completed published works</p>
+
+      <div class="qual-list">
+
+        <div class="qual-item" style="gap:1.5rem;align-items:flex-start;">
+          <span style="font-family:var(--font-mono);font-size:0.85rem;color:var(--text-muted);flex-shrink:0;padding-top:2px;min-width:2rem;">01</span>
+          <div style="flex:1;">
+            <p style="font-weight:500;color:#fff;margin-bottom:0.25rem;line-height:1.5;">3D printed photopolymer interpenetrating gyroid lattice structures and application in sustainable sandwich composites</p>
+            <p style="font-size:0.85rem;margin-bottom:0.2rem;">J. A. Dicks, S. Schlesinger, <strong style="color:var(--text);font-weight:500;">M. Christodoulides</strong>, S. Gabriel and L. Lthuli </p>
+            <p style="font-size:0.82rem;font-style:italic;margin-bottom:0.75rem;color:var(--text-muted);">Currently in-progress, expected late 2026.</p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.4rem;align-items:center;">
+              <span class="tag" style="color:var(--accent);border-color:var(--accent);">In Progress</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="qual-item" style="gap:1.5rem;align-items:flex-start;">
+          <span style="font-family:var(--font-mono);font-size:0.85rem;color:var(--text-muted);flex-shrink:0;padding-top:2px;min-width:2rem;">02</span>
+          <div style="flex:1;">
+            <p style="font-weight:500;color:#fff;margin-bottom:0.25rem;line-height:1.5;">Experimental investigation on the response of sandwich panels with 3D printed biopolymer gyroid structure cores and asymmetric glass fibre face sheets under blast loading</p>
+            <p style="font-size:0.85rem;margin-bottom:0.2rem;">J. A. Dicks, S. Gabriel, <strong style="color:var(--text);font-weight:500;">M. Christodoulides</strong> and L. Lthuli </p>
+            <p style="font-size:0.82rem;font-style:italic;margin-bottom:0.75rem;color:var(--text-muted);">ICILSM 2026: 5th International Conference on Impact Loading of Structures and Materials.<br>Currently in-progress, expected late 2026</p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.4rem;align-items:center;">
+              <span class="tag" style="color:var(--accent);border-color:var(--accent);">In Progress</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="qual-item" style="gap:1.5rem;align-items:flex-start;border-bottom:none;">
+          <span style="font-family:var(--font-mono);font-size:0.85rem;color:var(--text-muted);flex-shrink:0;padding-top:2px;min-width:2rem;">03</span>
+          <div style="flex:1;">
+            <p style="font-weight:500;color:#fff;margin-bottom:0.25rem;line-height:1.5;">Using Symmetry Groups to Model Damage in Crystalline Energy Metals &mdash; Working Title</p>
+            <p style="font-size:0.85rem;margin-bottom:0.2rem;"><strong style="color:var(--text);font-weight:500;">M. Christodoulides</strong>, Prof. T. Becker (Supervisor)</p>
+            <p style="font-size:0.82rem;font-style:italic;margin-bottom:0.75rem;color:var(--text-muted);">UCT CME &middot; Honours Research Report<br>Currently in-progress, expected end-of-year 2026.</p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.4rem;align-items:center;">
+              <span class="tag" style="color:var(--accent);border-color:var(--accent);">In Progress</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CV -->
+  <section id="cv" class="section" style="border-top:1px solid var(--border);">
+    <div class="container">
+      <span class="section-label">Curriculum Vitae</span>
+      <h2 class="section-title">Full CV</h2>
+      <p style="color:var(--text-muted);margin-bottom:2rem;">Interactive summary &mdash; download the full PDF below.</p>
+
+      <!-- Download bar -->
+      <div class="card" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem;">
+        <div>
+          <p style="font-weight:600;color:#fff;margin-bottom:0.15rem;font-size:0.95rem;">Mikael Christodoulides &mdash; Curriculum Vitae</p>
+          <p style="font-size:0.82rem;">Last updated: April 2026</p>
+        </div>
+        <a href="assets/cv.pdf" target="_blank" class="btn primary">&#8595; Download PDF CV</a>
+      </div>
+
+      <!-- CV body -->
+      <div class="card" style="padding:0;overflow:hidden;">
+
+        <!-- Education -->
+        <div style="padding:1.5rem 2rem;border-bottom:1px solid var(--border);">
+          <h3 style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:1.25rem;">Education</h3>
+          <div style="margin-bottom:1.5rem;">
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.15rem;">
+              <strong style="font-size:0.95rem;color:#fff;">BSc (Honours) Materials Science</strong>
+              <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--text-muted);">2026 &ndash; Present</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.5rem;">University of Cape Town</p>
+            <ul style="padding-left:1.2rem;list-style:disc;">
+              <li style="font-size:0.85rem;margin-bottom:0.2rem;">Currently in-progress.</li>
+            </ul>
+          </div>
+          <div>
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.15rem;">
+              <strong style="font-size:0.95rem;color:#fff;">BSc. Mathematics, Chemistry, Computer Science</strong>
+              <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--text-muted);">2023 &ndash; 2025</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.5rem;">University of Cape Town</p>
+            <ul style="padding-left:1.2rem;list-style:disc;">
+              <li style="font-size:0.85rem;margin-bottom:0.2rem;">Class Medals: MAM1019H, CSC2005Z.</li>
+              <li style="font-size:0.85rem;margin-bottom:0.2rem;">Dean's Merit List (2023-2025).</li>
+              <li style="font-size:0.85rem;margin-bottom:0.2rem;">Received Science Faculty Scholarships (2024-2025).</li>
+              <li style="font-size:0.85rem;margin-bottom:1.2rem;">Received Tier 1 Science Faculty Entrance Scholarship (2023).</li>
+            </ul>
+          </div>
+          <div>
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.15rem;">
+              <strong style="font-size:0.95rem;color:#fff;">High School Student</strong>
+              <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--text-muted);">2018 &ndash; 2022</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.5rem;">Westerford High School</p>
+            <ul style="padding-left:1.2rem;list-style:disc;">
+              <li style="font-size:0.85rem;margin-bottom:0.2rem;">Top 20 Matric Students (2022) [94% Average].</li>
+              <li style="font-size:0.85rem;margin-bottom:0.2rem;">Student Award for Music (2022).</li>
+              <li style="font-size:0.85rem;margin-bottom:0.2rem;">Academic Honours (2020-2022).</li>
+            </ul>
+          </div>
+          
+        </div>
+
+        <!-- Work Experience -->
+        <div style="padding:1.5rem 2rem;border-bottom:1px solid var(--border);">
+          <h3 style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:1.25rem;">Work Experience</h3>
+        
+          <div style="margin-bottom:1.5rem;">
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.15rem;">
+              <strong style="font-size:0.95rem;color:#fff;">Research Assistant</strong>
+              <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--text-muted);">Jan 2026</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.5rem;">Centre for Materials Engineering, University of Cape Town</p>
+            <ul style="padding-left:1.2rem;list-style:disc;">
+              <li style="font-size:0.85rem;margin-bottom:0.2rem;">Assisted with manufacturing and research in sustainable composite materials.</li>
+              <li style="font-size:0.85rem;">Contributed to research on the use of 3D-printed cores for blast-resistant panels.</li>
+            </ul>
+          </div>
+        
+          <div style="margin-bottom:1.5rem;">
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.15rem;">
+              <strong style="font-size:0.95rem;color:#fff;">Volunteer</strong>
+              <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--text-muted);">Dec 2025</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.5rem;">Hostel20 Bayonne, France</p>
+            <ul style="padding-left:1.2rem;list-style:disc;">
+              <li style="font-size:0.85rem;margin-bottom:0.2rem;">Volunteered at a hostel in Bayonne, France for one month.</li>
+              <li style="font-size:0.85rem;">Improved French proficiency and gained experience in hospitality environments.</li>
+            </ul>
+          </div>
+        
+          <div>
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.15rem;">
+              <strong style="font-size:0.95rem;color:#fff;">Mathematics Tutor</strong>
+              <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--text-muted);">2024 &ndash; Present</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.5rem;">Department of Mathematics, University of Cape Town</p>
+            <ul style="padding-left:1.2rem;list-style:disc;">
+              <li style="font-size:0.85rem;margin-bottom:0.2rem;">Taught 1<sup>st</sup> year students in the science and engineering faculties as a departmental tutor.</li>
+              <li style="font-size:0.85rem;">Received overwhelmingly positive feedback from course evaluations regarding approachability and clarity of explanation.</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Research Experience -->
+        <div style="padding:1.5rem 2rem;border-bottom:1px solid var(--border);">
+          <h3 style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:1.25rem;">Research Experience</h3>
+        
+          <div style="margin-bottom:1.5rem;">
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.15rem;">
+              <strong style="font-size:0.95rem;color:#fff;">Using Symmetry Groups to Model Damage in Crystalline Energy Metals <em style="font-weight:400;">(Working Title)</em></strong>
+              <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--text-muted);">2026</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.5rem;">M. Christodoulides, T. Becker (Supervisor)</p>
+            <ul style="padding-left:1.2rem;list-style:disc;">
+              <li style="font-size:0.85rem;">Currently in-progress as a year-long honours thesis.</li>
+            </ul>
+          </div>
+        
+          <div style="margin-bottom:1.5rem;">
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.15rem;">
+              <strong style="font-size:0.95rem;color:#fff;">Experimental investigation on the response of sandwich panels with 3D printed biopolymer gyroid structure...</strong>
+              <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--text-muted);">2026</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.5rem;">J. A. Dicks, S. Schlesinger, M. Christodoulides, S. Gabriel and L. Lthuli</p>
+            <ul style="padding-left:1.2rem;list-style:disc;">
+              <li style="font-size:0.85rem;">Co-authored paper, completed as a supplementary resource for the paper below.</li>
+            </ul>
+          </div>
+        
+          <div style="margin-bottom:1.5rem;">
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.15rem;">
+              <strong style="font-size:0.95rem;color:#fff;">3D printed photopolymer interpenetrating gyroid lattice structures and application in sustainable sandwich...</strong>
+              <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--text-muted);">2026</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.5rem;">J. A. Dicks, S. Gabriel, M. Christodoulides and L. Lthuli</p>
+            <ul style="padding-left:1.2rem;list-style:disc;">
+              <li style="font-size:0.85rem;">Co-authored paper submitted to ICILSM 2026 &mdash; the 5th International Conference on Impact Loading of Structures and Materials.</li>
+            </ul>
+          </div>
+        
+          <div style="margin-bottom:1.5rem;">
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.15rem;">
+              <strong style="font-size:0.95rem;color:#fff;">An Analysis of Temporal Digraphs Modeled From Hurricane Paths as Inspiration for Studying the Effect of...</strong>
+              <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--text-muted);">2025</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.5rem;">M. Christodoulides, D. Erwin (Supervisor)</p>
+            <ul style="padding-left:1.2rem;list-style:disc;">
+              <li style="font-size:0.85rem;">Completed as a paper for MAM3006Z, an optional mathematics research course in third year.</li>
+            </ul>
+          </div>
+        
+          <div>
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.15rem;">
+              <strong style="font-size:0.95rem;color:#fff;">An Analysis of Randomness in Computer Science in the context of a Truly Random Number Generator</strong>
+              <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--text-muted);">2024</span>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.5rem;">M. Christodoulides, P. Marais (Supervisor)</p>
+            <ul style="padding-left:1.2rem;list-style:disc;">
+              <li style="font-size:0.85rem;">Completed as a paper for CSC2005Z, an optional computer science research course in second year.</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Technical Skills -->
+        <div style="padding:1.5rem 2rem;border-bottom:1px solid var(--border);">
+          <h3 style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:1.25rem;">Skills</h3>
+          <div style="margin-bottom:0.75rem;">
+            <p style="font-size:0.8rem;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:0.5rem;">Languages</p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.5rem;">
+              <span class="tag">English (fluent)</span>
+              <span class="tag">French (intermediate)</span>
+            </div>
+          </div>
+          <div>
+            <p style="font-size:0.8rem;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:0.5rem;">Software</p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.5rem;">
+              <span class="tag">LaTeX</span>
+              <span class="tag">Java</span>
+              <span class="tag">C#</span>
+              <span class="tag">Python</span>
+              <span class="tag">HTML</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- References -->
+        <div style="padding:1.5rem 2rem;">
+          <h3 style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:1rem;">References</h3>
+          <ul style="padding-left:1.2rem;list-style:disc;">
+            <li style="font-size:0.85rem;margin-bottom:0.4rem;">Thorsten Becker &mdash; Engineering Professor, University of Cape Town</li>
+            <li style="font-size:0.85rem;">Anneliese Schuarte &mdash; Associate Professor of Mathematics, University of Cape Town</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section" style="border-top:1px solid var(--border);">
+    <div class="container">
+      <span class="section-label">Get In Touch</span>
+      <h2 class="section-title">Contact</h2>
+
+      <div style="display:grid;grid-template-columns:1fr 1.4fr;gap:3rem;align-items:start;">
+
+        <!-- Links -->
+        <div>
+          <p style="margin-bottom:1.5rem;font-size:0.92rem;">
+            Open to research collaborations, academic enquiries, or a conversation
+            about materials science. Reach out via any of the channels below.
+          </p>
+          <div style="display:flex;flex-direction:column;gap:0.75rem;">
+            <a href="mailto:CHRMIK001@myuct.ac.za" class="card" style="display:flex;align-items:center;gap:1rem;padding:0.9rem 1.25rem;color:inherit;">
+              <span style="font-size:1rem;flex-shrink:0;">&#9993;</span>
+              <div>
+                <div style="font-size:0.7rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:2px;">Email</div>
+                <div style="font-size:0.88rem;color:var(--accent);">CHRMIK001@myuct.ac.za</div>
+              </div>
+            </a>
+            <a href="https://github.com/spitfyre347" target="_blank" class="card" style="display:flex;align-items:center;gap:1rem;padding:0.9rem 1.25rem;color:inherit;">
+              <span style="font-size:0.82rem;font-weight:700;font-family:var(--font-mono);flex-shrink:0;">GH</span>
+              <div>
+                <div style="font-size:0.7rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:2px;">GitHub</div>
+                <div style="font-size:0.88rem;color:var(--accent);">github.com/spitfyre347</div>
+              </div>
+            </a>
+            <a href="https://orcid.org/0009-0001-6793-3513" target="_blank" class="card" style="display:flex;align-items:center;gap:1rem;padding:0.9rem 1.25rem;color:inherit;">
+              <span style="font-size:0.82rem;font-weight:700;font-family:var(--font-mono);flex-shrink:0;">ID</span>
+              <div>
+                <div style="font-size:0.7rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:2px;">ORCID</div>
+                <div style="font-size:0.88rem;color:var(--accent);">0009-0001-6793-3513</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div>
+          <form id="contact-form" novalidate>
+            <div style="margin-bottom:1rem;">
+              <label style="display:block;font-size:0.8rem;color:var(--text-muted);margin-bottom:0.4rem;" for="form-name">Name</label>
+              <input class="form-input" id="form-name" type="text" placeholder="Your Name" />
+            </div>
+            <div style="margin-bottom:1rem;">
+              <label style="display:block;font-size:0.8rem;color:var(--text-muted);margin-bottom:0.4rem;" for="form-email">Email</label>
+              <input class="form-input" id="form-email" type="email" placeholder="your@email.com" />
+            </div>
+            <div style="margin-bottom:1rem;">
+              <label style="display:block;font-size:0.8rem;color:var(--text-muted);margin-bottom:0.4rem;" for="form-subject">Subject</label>
+              <input class="form-input" id="form-subject" type="text" placeholder="Research enquiry / Collaboration / Other" />
+            </div>
+            <div style="margin-bottom:1.25rem;">
+              <label style="display:block;font-size:0.8rem;color:var(--text-muted);margin-bottom:0.4rem;" for="form-message">Message</label>
+              <textarea class="form-input" id="form-message" rows="5" placeholder="Your message&hellip;" style="resize:vertical;"></textarea>
+            </div>
+            <button type="submit" class="btn primary" style="width:100%;justify-content:center;">
+              Send Message &nearr;
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+      <span>&copy; <span id="footer-year"></span> Mikael Christodoulides &middot; Hosted on GitHub Pages</span>
+      <nav style="display:flex;gap:1.5rem;">
+        <a href="#hero" style="color:var(--text-muted);font-size:0.85rem;">Top</a>
+        <a href="#about" style="color:var(--text-muted);font-size:0.85rem;">About</a>
+        <a href="#cv" style="color:var(--text-muted);font-size:0.85rem;">CV</a>
+        <a href="assets/cv.pdf" target="_blank" style="color:var(--text-muted);font-size:0.85rem;">PDF CV</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Active nav highlight
+    const sections = document.querySelectorAll('section[id]');
+    window.addEventListener('scroll', () => {
+      const y = window.scrollY + 100;
+      sections.forEach(s => {
+        const link = document.querySelector(`.nav-links a[href="#${s.id}"]`);
+        if (link) link.classList.toggle('active', y >= s.offsetTop && y < s.offsetTop + s.offsetHeight);
+      });
+    }, { passive: true });
+
+    // Skill bar animation on scroll into view
+    const so = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.querySelectorAll('.skill-progress[data-w]').forEach(bar => {
+            setTimeout(() => { bar.style.width = bar.dataset.w + '%'; }, 150);
+          });
+          so.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.2 });
+    document.querySelectorAll('.card').forEach(c => {
+      if (c.querySelector('.skill-progress')) so.observe(c);
+    });
+
+    // Footer year
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+  </script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
